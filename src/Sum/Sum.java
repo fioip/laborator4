@@ -8,7 +8,7 @@ public class Sum {
         System.out.print("Introduceti un numar: ");
         int number = scanner.nextInt();
         scanner.close();
-        int uc=0,sum=0;
+        int uc = 0,sum = 0;
 
         while (number!=0) {
             uc = number % 10;
